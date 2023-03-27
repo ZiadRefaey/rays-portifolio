@@ -32,6 +32,7 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10  z-30">
           {navLinks.map((link) => (
             <li
+              key={link.title}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
               } font-poppins font-medium cursor-pointer text-[16px] hover:text-white  `}
@@ -59,6 +60,7 @@ const Navbar = () => {
             <ul className="list-none flex justify-end flex-col items-start z-30">
               {navLinks.map((link) => (
                 <li
+                  key={link.title}
                   className={`${
                     active === link.title ? "text-white" : "text-secondary"
                   } font-poppins font-medium cursor-pointer text-[16px] hover:text-white hover:text-[18px] `}

@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+
 import {
   About,
   Contact,
@@ -19,7 +20,7 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        <About />
+        <About className="ml-2 px-4" />
         <Experience />
         <Tech />
         <Works />
