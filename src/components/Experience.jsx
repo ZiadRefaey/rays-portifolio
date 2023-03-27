@@ -19,7 +19,7 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div>
+        <div className="flex justify-center items-center w-full h-full">
           <img
             src={experience.icon}
             alt={experience.company_name}
@@ -29,7 +29,10 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold"></h3>
+        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <p className="text-secondary text[16px] font-semibold">
+          {experience.company_name}
+        </p>
       </div>
     </VerticalTimelineElement>
   );
@@ -40,7 +43,7 @@ const Experience = () => {
       {" "}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What have I done so far</p>
-        <h2 className={styles.sectionHeadText}>My Work.</h2>
+        <h2 className={styles.sectionHeadText}>My Experience.</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
