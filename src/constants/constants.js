@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  trainer,
+  restaurant,
+  charity,
 } from "../assets";
 
 export const navLinks = [
@@ -183,66 +186,66 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Italian Restaurant",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A website for an authentic Italian restaurant, showcasing their menu, location, and contact information. Users can also make reservations and explore their catering services.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "html",
+        color: "red-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: tripguide,
+    image: restaurant,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Orphanage Charity",
+    description:
+      "A website for a non-profit organization that helps orphans and vulnerable children. The website features information about their mission, current projects, and ways to donate and get involved.",
+    tags: [
+      {
+        name: "html",
+        color: "red-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: charity,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Personal Trainer",
+    description:
+      "A website for a personal trainer who specializes in helping clients achieve their fitness goals. The website includes information about their services, pricing, and testimonials from satisfied clients.",
+    tags: [
+      {
+        name: "html",
+        color: "red-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: trainer,
     source_code_link: "https://github.com/",
   },
 ];
