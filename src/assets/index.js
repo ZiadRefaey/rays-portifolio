@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import globe from "./globe.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,6 +34,10 @@ import tripguide from "./tripguide.png";
 import charity from "./charity.png";
 import trainer from "./trainer.png";
 import restaurant from "./restaurant.png";
+import iti from "./company/iti.png";
+import suez from "./company/suezcanal.png";
+import personal from "./company/personal.webp";
+import firebase from "./tech/firebase.png";
 export {
   logo,
   backend,
@@ -65,4 +70,9 @@ export {
   restaurant,
   trainer,
   charity,
+  iti,
+  suez,
+  personal,
+  globe,
+  firebase
 };

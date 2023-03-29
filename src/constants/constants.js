@@ -26,6 +26,10 @@ import {
   trainer,
   restaurant,
   charity,
+  suez,
+  iti,
+  personal,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +84,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -100,28 +101,19 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "firebase",
+    icon: firebase,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Computer Science Student",
+    company_name: "Suez Canel University",
+    icon: suez,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2019 - 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,24 +122,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Scholarship in ITI",
+    company_name: "Information Technology Institute",
+    icon: iti,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jul 2021 - Aug 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,6 +134,32 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Personal Projects",
+    company_name: "",
+    icon: personal,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - March 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -204,7 +209,8 @@ const projects = [
       },
     ],
     image: restaurant,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ZiadRefaey/Ray-s-Restaraunt/",
+    live_site_link: "https://rays-restaurant.netlify.app/home.html",
   },
   {
     name: "Orphanage Charity",
@@ -225,7 +231,8 @@ const projects = [
       },
     ],
     image: charity,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ZiadRefaey/Ray-s-Charity",
+    live_site_link: "https://rays-charity.netlify.app/",
   },
   {
     name: "Personal Trainer",
@@ -246,7 +253,8 @@ const projects = [
       },
     ],
     image: trainer,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ZiadRefaey/Ray-s-Trainer",
+    live_site_link: "https://rays-trainer.netlify.app/",
   },
 ];
 

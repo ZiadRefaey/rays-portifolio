@@ -42,11 +42,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
-        exercitationem asperiores corporis maiores delectus voluptates itaque
-        eaque distinctio magni alias, soluta dicta placeat. Vel, eaque similique
-        culpa molestias nobis dolorem laboriosam facilis officia voluptatibus
-        corrupti fugit amet quisquam nesciunt earum?
+        Meet Ziad, a skilled front-end developer with expertise in HTML, CSS,
+        JavaScript, React, TailwindCSS, and Three.js. With a passion for
+        creating visually stunning websites and user experiences, Ziad brings a
+        unique perspective and attention to detail to every project. As a
+        front-end developer, Ziad is well-versed in creating responsive and
+        dynamic websites that are optimized for speed and performance. With
+        Ziad's technical expertise and creative flair, clients and potential
+        employers can expect high-quality web development services that will
+        enhance their online presence and provide their users with an
+        exceptional experience.
       </motion.p>
       <div className="mt-20 grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 place-items-center ">
         {services.map((service, index) => (
