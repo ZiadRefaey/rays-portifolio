@@ -40,7 +40,7 @@ import nextjs from "./nextjs.png";
 import suez from "./company/suezcanal.png";
 import personal from "./company/personal.webp";
 import designo from "./designo.png";
-import pfa from "./pfa.png";
+import pfa from "./PFA.png";
 import photosnap from "./photosnap.png";
 import archstudio from "./ArchStudio.png";
 export {
