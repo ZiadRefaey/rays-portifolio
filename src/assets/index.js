@@ -35,10 +35,19 @@ import charity from "./charity.png";
 import trainer from "./trainer.png";
 import restaurant from "./restaurant.png";
 import iti from "./company/iti.png";
+import supabase from "./supabase.png";
+import nextjs from "./nextjs.png";
 import suez from "./company/suezcanal.png";
 import personal from "./company/personal.webp";
-import firebase from "./tech/firebase.png";
+import designo from "./designo.png";
+import pfa from "./pfa.png";
+import photosnap from "./photosnap.png";
+import archstudio from "./ArchStudio.png";
 export {
+  archstudio,
+  photosnap,
+  pfa,
+  designo,
   logo,
   backend,
   creator,
@@ -74,5 +83,6 @@ export {
   suez,
   personal,
   globe,
-  firebase,
+  supabase,
+  nextjs,
 };

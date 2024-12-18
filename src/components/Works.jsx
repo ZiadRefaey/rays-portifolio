@@ -16,10 +16,13 @@ const ProjectCard = ({
   live_site_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      className=""
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    >
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full xl:h-[467px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -80,7 +83,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="text-secondary text[17px] max-w-3xl leading-[30px] mt-3"
+          className="text-secondary text-[17px] max-w-3xl leading-[30px] mt-3"
         >
           Following projects showcase my skills and experience through
           real-world examples of my work. Each project is breifly described with
@@ -91,7 +94,7 @@ const Works = () => {
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+          <ProjectCard key={index} index={index} {...project} />
         ))}
       </div>
     </>

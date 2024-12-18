@@ -29,7 +29,12 @@ import {
   suez,
   iti,
   personal,
-  firebase,
+  supabase,
+  nextjs,
+  designo,
+  archstudio,
+  photosnap,
+  pfa,
 } from "../assets";
 
 export const navLinks = [
@@ -79,10 +84,18 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
 
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "NextJs",
+    icon: nextjs,
   },
 
   {
@@ -90,20 +103,16 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "firebase",
-    icon: firebase,
+    name: "Supabase",
+    icon: supabase,
   },
 ];
 
@@ -147,19 +156,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -212,28 +208,29 @@ const projects = [
     source_code_link: "https://github.com/ZiadRefaey/Ray-s-Restaraunt/",
     live_site_link: "https://rays-restaurant.netlify.app/home.html",
   },
-  {
-    name: "Orphanage Charity",
-    description:
-      "A website for a non-profit organization that helps orphans and vulnerable children. The website features information about their mission, current projects, and ways to donate and get involved.",
-    tags: [
-      {
-        name: "html",
-        color: "red-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: charity,
-    source_code_link: "https://github.com/ZiadRefaey/Ray-s-Charity",
-    live_site_link: "https://rays-charity.netlify.app/",
-  },
+  // {
+  //   name: "Orphanage Charity",
+  //   description:
+  //     "A website for a non-profit organization that helps orphans and vulnerable children. The website features information about their mission, current projects, and ways to donate and get involved.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: charity,
+  //   source_code_link: "https://github.com/ZiadRefaey/Ray-s-Charity",
+  //   live_site_link: "https://rays-charity.netlify.app/",
+  // },
+
   {
     name: "Personal Trainer",
     description:
@@ -255,6 +252,78 @@ const projects = [
     image: trainer,
     source_code_link: "https://github.com/ZiadRefaey/Ray-s-Trainer",
     live_site_link: "https://rays-trainer.netlify.app/",
+  },
+  {
+    name: "Designo",
+    description:
+      "A website for a designing company specializing in software products. such as mobile apps, webapps and graphic design. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "gray-text-gradient",
+      },
+    ],
+    image: designo,
+    source_code_link: "https://github.com/ZiadRefaey/Deisgno-FEM",
+    live_site_link: "https://deisgno-fem-ziadrefaeys-projects.vercel.app/",
+  },
+  {
+    name: "ArchStudio",
+    description:
+      "A website for an architecture company portfolio. Specializing in Modern architecture connecting with clients to bring their ideas to life.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "gray-text-gradient",
+      },
+    ],
+    image: archstudio,
+    source_code_link: "https://github.com/ZiadRefaey/Arch-Studio-FEM",
+    live_site_link: "https://arch-studio-fem.vercel.app/",
+  },
+  {
+    name: "Photosnap",
+    description:
+      "Photosnap is a platform for photographers and visual storytellers. showcasing the work and portfolio of the group.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: photosnap,
+    source_code_link: "https://github.com/ZiadRefaey/FE-Mentor-Photosnap",
+    live_site_link: "https://merry-treacle-84322f.netlify.app/",
+  },
+  {
+    name: "Personal Fiannce app",
+    description:
+      "A webapp to track your finances. It's a fullstack application using supabase to handle the database and nextAuth for authentication. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pfa,
+    source_code_link: "https://github.com/ZiadRefaey/personal-finance-app",
+    live_site_link: "https://personal-finance-app-fem.vercel.app/",
   },
 ];
 
